@@ -21,15 +21,7 @@
   <script src="assets/js/all.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   
-  <style>
-body {
-  background-image: url('ridho.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-</style>
-
+  
 </head>
 
 <body class="axera">
@@ -71,6 +63,24 @@ body {
           <span class:"front">Blogger</span>
         </p>
       </button>
+      
+      <style>
+  /* The CSS we saw earlier is still
+   * being applied. It's tucked into
+   * the "CSS" tab above.
+   */
+
+  .pushable:focus:not(:focus-visible) {
+    outline: none;
+  }
+</style>
+
+<button class="pushable">
+  <span class="front">
+    Push me
+  </span>
+</button>
+      
     </div>
     <p class="footer">
       Copyright © <b>NVDSTORE</>
